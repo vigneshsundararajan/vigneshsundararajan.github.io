@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Using a GAN with a Perceptual Loss function for Image Super Resolution | Vignesh Sundararajan</title>
+
+  <meta charset="UTF-8">
+  <meta name="language" content="en">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  
+  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+
+
+  
+  
+    
+ 
+  
+  
+  
+  
+  
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/post.min.86d1effd4c412b85ac13db53a90c473a0f256f789b821e131125c9aa25cb6a6d.css" integrity="sha256-htHv/UxBK4WsE9tTqQxHOg8lb3ibgh4TESXJqiXLam0="/>
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/custom.min.f310151fedbf43077865f49ce3aa0d5013558d82d34d65a3a243e0f1d282ea2e.css" integrity="sha256-8xAVH&#43;2/Qwd4ZfSc46oNUBNVjYLTTWWjokPg8dKC6i4="/>
+  
+  
+   
+   
+    
+
+<script type="application/ld+json">
+  
+    {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/vigneshsundararajan.github.io\/"
+      },
+      "articleSection" : "blog",
+      "name" : "Using a GAN with a Perceptual Loss function for Image Super Resolution",
+      "headline" : "Using a GAN with a Perceptual Loss function for Image Super Resolution",
+      "description" : "",
+      "inLanguage" : "en-US",
+      "author" : "",
+      "creator" : "",
+      "publisher": "",
+      "accountablePerson" : "",
+      "copyrightHolder" : "",
+      "copyrightYear" : "2021",
+      "datePublished": "2021-12-16 09:12:37 -0500 EST",
+      "dateModified" : "2021-12-16 09:12:37 -0500 EST",
+      "url" : "https:\/\/vigneshsundararajan.github.io\/blog\/srgan\/",
+      "wordCount" : "92",
+      "keywords" : ["Blog"]
+    }
+  
+  </script>
+</head>
+
+<body>
+  <div class="burger__container">
+  <div class="burger" aria-controls="navigation" aria-label="Menu">
+    <div class="burger__meat burger__meat--1"></div>
+    <div class="burger__meat burger__meat--2"></div>
+    <div class="burger__meat burger__meat--3"></div>
+  </div>
+</div>
+ 
+
+  <nav class="nav" id="navigation">
+  <ul class="nav__list">
+    
+    
+      <li>
+        <a  href="/about">about</a>
+      </li>
+    
+      <li>
+        <a  href="/">home</a>
+      </li>
+    
+      <li>
+        <a  class="active"
+         href="/blog">projects</a>
+      </li>
+    
+      <li>
+        <a  href="/resume">résumé</a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+  <main>
+    
+    
+
+    <div class="flex-wrapper">
+      <div class="post__container">
+        <div class="post">
+          <header class="post__header">
+            <h1 id="post__title">Using a GAN with a Perceptual Loss function for Image Super Resolution</h1>
+            <time datetime="2021-12-16 09:12:37 -0500 EST" class="post__date">Dec 16 2021</time> 
+          </header>
+          <article class="post__content">
+              
+<p><em>August 2021 - December 2021</em></p>
+<p><img src="../../images/srgan.png" alt=""></p>
+<ul>
+<li><em>Implemented a deep neural network with 16 Residual Blocks, in a Generator-Discriminator pair to upsample low resolution images by a factor of 4, using TensorFlow 2</em></li>
+<li><em>Trained the model for 50,000 steps on an NVIDIA Tesla P100 GPU to analyze the Discriminator and Perceptual Loss trends over time</em></li>
+<li><em>Worked with ~10GB datasets, and used test/train splits for training the GAN</em></li>
+<li><em>Went through 3 peer reviews throughout the course of the semester, and gave a presentation for my Artificial Intelligence course project. You can watch the video below!</em></li>
+</ul>
+<center>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/K7zoeHvSiHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+
+              
+                  
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+              
+          </article>
+          
+
+<ul class="tags__list">
+    
+    <li class="tag__item">
+        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/deeplearning/">DeepLearning</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/tensorflow/">Tensorflow</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/python/">Python</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/datahandling/">DataHandling</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/neuralnetworks/">NeuralNetworks</a>
+    </li></ul>
+
+ <div class="pagination">
+  
+    <a class="pagination__item" href="https://vigneshsundararajan.github.io/blog/per/">
+        <span class="pagination__label">Previous Post</span>
+        <span class="pagination__title">Aerodynamics Team Member - Purdue Electric Racing</span>
+    </a>
+  
+
+  
+</div>
+
+          
+          <footer class="post__footer">
+            
+
+
+<div class="social-icons">
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="GitHub"
+        href="https://github.com/vigneshsundararajan"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://vigneshsundararajan.github.io/svg/github.svg')"></div>
+      </a>
+    
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="LinkedIn"
+        href="https://www.linkedin.com/in/sundararajan-vignesh"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://vigneshsundararajan.github.io/svg/linkedin.svg')"></div>
+      </a>
+    
+     
+</div>
+
+            <p></p>
+          </footer>
+          </div>
+      </div>
+      
+    </div>
+    
+
+  </main>
+
+   
+
+  
+  <script src="/js/index.min.575dda8d49ee02639942c63564273e6da972ab531dda26a08800bdcb477cbd7f.js" integrity="sha256-V13ajUnuAmOZQsY1ZCc&#43;balyq1Md2iagiAC9y0d8vX8=" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/components/prism-core.min.js"></script>
+
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js"
+    data-autoloader-path="https://unpkg.com/prismjs@1.20.0/components/"></script>
+
+  
+
+
+</body>
+
+</html>

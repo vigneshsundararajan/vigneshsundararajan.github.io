@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tensorflow on Vignesh Sundararajan</title>
+    <link>https://vigneshsundararajan.github.io/tags/tensorflow/</link>
+    <description>Recent content in Tensorflow on Vignesh Sundararajan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Dec 2021 09:12:37 -0500</lastBuildDate><atom:link href="https://vigneshsundararajan.github.io/tags/tensorflow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using a GAN with a Perceptual Loss function for Image Super Resolution</title>
+      <link>https://vigneshsundararajan.github.io/blog/srgan/</link>
+      <pubDate>Thu, 16 Dec 2021 09:12:37 -0500</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/blog/srgan/</guid>
+      <description>August 2021 - December 2021
+ Implemented a deep neural network with 16 Residual Blocks, in a Generator-Discriminator pair to upsample low resolution images by a factor of 4, using TensorFlow 2 Trained the model for 50,000 steps on an NVIDIA Tesla P100 GPU to analyze the Discriminator and Perceptual Loss trends over time Worked with ~10GB datasets, and used test/train splits for training the GAN Went through 3 peer reviews throughout the course of the semester, and gave a presentation for my Artificial Intelligence course project.</description>
+    </item>
+    
+  </channel>
+</rss>
