@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Robotics on Vignesh Sundararajan</title>
-    <link>https://vigneshsundararajan.github.io/tags/robotics/</link>
-    <description>Recent content in Robotics on Vignesh Sundararajan</description>
+    <title>OpenCV on Vignesh Sundararajan</title>
+    <link>https://vigneshsundararajan.github.io/tags/opencv/</link>
+    <description>Recent content in OpenCV on Vignesh Sundararajan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://vigneshsundararajan.github.io/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://vigneshsundararajan.github.io/tags/opencv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ball Tracking and Chasing Robot using ROS and Gazebo</title>
       <link>https://vigneshsundararajan.github.io/blog/autsys/</link>

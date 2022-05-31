@@ -6,15 +6,15 @@
     <description>Recent content in ROS on Vignesh Sundararajan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Feb 2022 15:10:26 -0500</lastBuildDate><atom:link href="https://vigneshsundararajan.github.io/tags/ros/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://vigneshsundararajan.github.io/tags/ros/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Building an Autonomous Robot to navigate through a model town (Ongoing)</title>
+      <title>Ball Tracking and Chasing Robot using ROS and Gazebo</title>
       <link>https://vigneshsundararajan.github.io/blog/autsys/</link>
-      <pubDate>Tue, 08 Feb 2022 15:10:26 -0500</pubDate>
+      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://vigneshsundararajan.github.io/blog/autsys/</guid>
-      <description>January 2022 - Present
- Working on an intensive course project for the class ME597 - Autonomous Systems, which involves, building a 4-wheeled autonomous robot (as shown in the picture above), consisting of Ultrasonic Sensors, a Camera, and a Line Tracking Sensor Processing and handling of all sensor data will be done using a Raspberry Pi on the robot, running Ubuntu 20.04, using ROS and Python  Phase 1 - Robot Kinematics and Control  In this phase, I had to leverage the Line Tracking sensor and the Ultrasonic sensor on board the Autonomous Robot to implement a Line Tracking Module as well as a PID controller The PID controller used the distance in front of the robot to calculate the error from the setpoint, and calculated the output velocity to be sent to the DC motors by using carefully tuned proportional, integral and derivative gains to minimize overshoot and Steady State Error I also learned more about how to calculate forward and inverse kinematics for mobile robots with different wheel configurations, eg: Mecanum wheeled Robot  Phase 2 - Robot Perception  This phase involved the simulation of a Turtlebot to track and chase a red ball in the Gazebo environment.</description>
+      <description>April 2022
+ Utilized raw camera data from a Turtlebot in Gazebo using ROS for performing Image Masking using OpenCV Calculated the centroid of object using Moments and then tracked the position of object in the robot&amp;rsquo;s Field of View Implemented a proportional velocity controller to follow the object  You can find the code repository for this project on my GitHub</description>
     </item>
     
   </channel>
