@@ -13,8 +13,7 @@
       <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://vigneshsundararajan.github.io/blog/autsys/</guid>
-      <description>April 2022
- Utilized raw camera data from a Turtlebot in Gazebo using ROS for performing Image Masking using OpenCV Calculated the centroid of object using Moments and then tracked the position of object in the robot&amp;rsquo;s Field of View Implemented a proportional velocity controller to follow the object  You can find the code repository for this project on my GitHub</description>
+      <description>This project was my first introduction to Perception and learning about the different image processing techniques that I could apply for Object Detection using the minimal computational resources! I explored methods such as Canny Edge Detection, and Image Masking to extract only the object of interest from the RGB camera feed. Once that is done, I calculated the distance to the object by finding it&amp;rsquo;s centroid and position relative to the robot.</description>
     </item>
     
   </channel>
