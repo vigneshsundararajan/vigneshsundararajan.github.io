@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>Monocular Vision based Navigation of a Robot using ROS</title>
+      <link>https://vigneshsundararajan.github.io/blog/monovision-nav/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/blog/monovision-nav/</guid>
+      <description>The vision system consisted of a monocular camera system (5MP 1080p Raspberry Pi Camera module) interfaced with a Raspberry Pi running ROS Noetic on Ubuntu. The DC motors running the wheels and the servo controlling the orientation of the camera were handled by an L293D driver board which was connected to the GPIO pins of the Raspberry Pi First, the camera was calibrated using the camera_calibration ROS package that uses a checkerboard pattern as a target and performs calibration on either a monocular or stereo system.</description>
+    </item>
+    
+    <item>
       <title>Image Super Resolution using a GAN with a Perceptual Loss Function</title>
       <link>https://vigneshsundararajan.github.io/blog/srgan/</link>
       <pubDate>Thu, 16 Dec 2021 09:12:37 -0500</pubDate>

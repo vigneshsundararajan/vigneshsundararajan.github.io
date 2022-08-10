@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Vision on Vignesh Sundararajan</title>
+    <link>https://vigneshsundararajan.github.io/tags/computer-vision/</link>
+    <description>Recent content in Computer Vision on Vignesh Sundararajan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://vigneshsundararajan.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monocular Vision based Navigation of a Robot using ROS</title>
+      <link>https://vigneshsundararajan.github.io/blog/monovision-nav/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/blog/monovision-nav/</guid>
+      <description>The vision system consisted of a monocular camera system (5MP 1080p Raspberry Pi Camera module) interfaced with a Raspberry Pi running ROS Noetic on Ubuntu. The DC motors running the wheels and the servo controlling the orientation of the camera were handled by an L293D driver board which was connected to the GPIO pins of the Raspberry Pi First, the camera was calibrated using the camera_calibration ROS package that uses a checkerboard pattern as a target and performs calibration on either a monocular or stereo system.</description>
+    </item>
+    
+  </channel>
+</rss>
