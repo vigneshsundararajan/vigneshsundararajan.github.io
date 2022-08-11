@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-  <title>Ball Tracking and Chasing Robot using ROS and Gazebo | Vignesh Sundararajan</title>
+  <title>CNN Autoencoder for Image Denoising | Vignesh Sundararajan</title>
 
   <meta charset="UTF-8">
   <meta name="language" content="en">
@@ -49,8 +49,8 @@
             "@id": "https:\/\/vigneshsundararajan.github.io\/"
       },
       "articleSection" : "blog",
-      "name" : "Ball Tracking and Chasing Robot using ROS and Gazebo",
-      "headline" : "Ball Tracking and Chasing Robot using ROS and Gazebo",
+      "name" : "CNN Autoencoder for Image Denoising",
+      "headline" : "CNN Autoencoder for Image Denoising",
       "description" : "",
       "inLanguage" : "en-US",
       "author" : "",
@@ -58,11 +58,11 @@
       "publisher": "",
       "accountablePerson" : "",
       "copyrightHolder" : "",
-      "copyrightYear" : "2022",
-      "datePublished": "2022-04-08 00:00:00 \u002b0000 UTC",
-      "dateModified" : "2022-04-08 00:00:00 \u002b0000 UTC",
-      "url" : "https:\/\/vigneshsundararajan.github.io\/blog\/autsys\/",
-      "wordCount" : "140",
+      "copyrightYear" : "2021",
+      "datePublished": "2021-10-27 00:00:00 \u002b0000 UTC",
+      "dateModified" : "2021-10-27 00:00:00 \u002b0000 UTC",
+      "url" : "https:\/\/vigneshsundararajan.github.io\/blog\/cnn\/",
+      "wordCount" : "148",
       "keywords" : ["Blog"]
     }
   
@@ -112,20 +112,28 @@
       <div class="post__container">
         <div class="post">
           <header class="post__header">
-            <h1 id="post__title">Ball Tracking and Chasing Robot using ROS and Gazebo</h1>
-            <time datetime="2022-04-08 00:00:00 &#43;0000 UTC" class="post__date">Apr 8 2022</time> 
+            <h1 id="post__title">CNN Autoencoder for Image Denoising</h1>
+            <time datetime="2021-10-27 00:00:00 &#43;0000 UTC" class="post__date">Oct 27 2021</time> 
           </header>
           <article class="post__content">
               
-<p><img src="../../images/balltracking.gif" alt=""></p>
-<ul>
-<li>This project was my first introduction to Perception and learning about the different image processing techniques that I could apply for Object Detection using the minimal computational resources! I explored methods such as Canny Edge Detection, and Image Masking to extract only the object of interest from the RGB camera feed. Once that is done, I calculated the distance to the object by finding it&rsquo;s centroid and position relative to the robot.</li>
-<li>Once the distance to the object was found, we needed to get the robot to a safe distance within it, so I wrote a simple proportional velocity controller that checks if the object is in the robot&rsquo;s FOV. If not, a slight angular velocity was provided to rotate the robot into the object&rsquo;s Line of Sight.</li>
-</ul>
-<p>You can find the code repository for this project on <a href="https://github.com/vigneshsundararajan/object-tracking-ROS" 
+<h3 id="dataset-used">Dataset used<a class="anchor" href="#dataset-used">#</a></h3>
+<p>MNIST: <a href="http://yann.lecun.com/exdb/mnist/" 
   
    target="_blank" rel="noreferrer noopener" 
->my GitHub!</a></p>
+>http://yann.lecun.com/exdb/mnist/</a></p>
+<p>Data augmentation was performed on this dataset by adding a Gaussian noise with $\mu = 0$ and $\sigma = 0.5$. Test-train splits were then created by concatenating the clean images along with their noisy counterparts.</p>
+<p><img src="../../images/noisy.png" alt=""></p>
+<h3 id="model-architecture-and-training">Model Architecture and Training<a class="anchor" href="#model-architecture-and-training">#</a></h3>
+<p>The autoencoder model designed for this task has two convolutional layers along with max pooling in the encoder, and two transpose convolutional layers in the decoder. Training was done for 10 epochs to reduce the loss to a sufficient level. The loss function used was $MSE$ and the learning rate was $0.001$</p>
+<h3 id="results-and-discussion">Results and Discussion<a class="anchor" href="#results-and-discussion">#</a></h3>
+<p><img src="../../images/results.png" alt=""></p>
+<p>The first line in the plot above shows the original MNIST images, followed by the augmented images in the second row. The third row shows the images reconstructed by the neural network after removing the noise. The average loss on the 10th epoch was $17.335$</p>
+<h3 id="link-to-code-repository">Link to Code Repository<a class="anchor" href="#link-to-code-repository">#</a></h3>
+<p><a href="https://github.com/vigneshsundararajan/ae-denoising" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/vigneshsundararajan/ae-denoising</a></p>
 
 
               
@@ -147,41 +155,31 @@
 <ul class="tags__list">
     
     <li class="tag__item">
-        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/robotics/">Robotics</a>
+        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/deeplearning/">DeepLearning</a>
     </li>
     <li class="tag__item">
-        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/ros/">ROS</a>
+        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/cnn/">CNN</a>
     </li>
     <li class="tag__item">
-        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/python/">Python</a>
+        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/neuralnetworks/">NeuralNetworks</a>
     </li>
     <li class="tag__item">
-        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/perception/">Perception</a>
-    </li>
-    <li class="tag__item">
-        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/gazebo/">Gazebo</a>
-    </li>
-    <li class="tag__item">
-        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/xml/">XML</a>
-    </li>
-    <li class="tag__item">
-        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/linux/">Linux</a>
-    </li>
-    <li class="tag__item">
-        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/cmake/">CMake</a>
-    </li>
-    <li class="tag__item">
-        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/opencv/">OpenCV</a>
+        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/pytorch/">Pytorch</a>
     </li></ul>
 
  <div class="pagination">
   
-    <a class="pagination__item" href="https://vigneshsundararajan.github.io/blog/monovision-nav/">
+    <a class="pagination__item" href="https://vigneshsundararajan.github.io/blog/knn/">
         <span class="pagination__label">Previous Post</span>
-        <span class="pagination__title">Monocular Vision based Navigation of a 4-wheeled Robot</span>
+        <span class="pagination__title">KNN Classifier to detect potential credit card fraud</span>
     </a>
   
 
+  
+    <a class="pagination__item" href="https://vigneshsundararajan.github.io/blog/srgan/">
+      <span class="pagination__label">Next Post</span>
+      <span class="pagination__title" >Image Super Resolution using a GAN with a Perceptual Loss Function</span>
+    </a>
   
 </div>
 
