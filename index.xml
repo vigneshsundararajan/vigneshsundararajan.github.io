@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>Monocular Vision based Navigation of a 4-wheeled Robot</title>
+      <link>https://vigneshsundararajan.github.io/blog/monovision-nav/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/blog/monovision-nav/</guid>
+      <description>The vision system consisted of a monocular camera system (5MP 1080p Raspberry Pi Camera module) interfaced with a Raspberry Pi running ROS Noetic on Ubuntu. The DC motors running the wheels and the servo controlling the orientation of the camera were handled by an L293D driver board which was connected to the GPIO pins of the Raspberry Pi First, the camera was calibrated using the camera_calibration ROS package that uses a checkerboard pattern as a target and performs calibration on either a monocular or stereo system.</description>
+    </item>
+    
+    <item>
       <title>Image Super Resolution using a GAN with a Perceptual Loss Function</title>
       <link>https://vigneshsundararajan.github.io/blog/srgan/</link>
       <pubDate>Thu, 16 Dec 2021 09:12:37 -0500</pubDate>
@@ -33,6 +42,28 @@
       <guid>https://vigneshsundararajan.github.io/about/</guid>
       <description>Nice to meet you. This is me. &amp;ldquo;Taking on a challenge is a lot like riding a horse. If you&amp;rsquo;re comfortable while you&amp;rsquo;re doing it, you&amp;rsquo;re probably doing it wrong&amp;rdquo;
 - Ted Lasso I strive on learning new things everyday. Whether it be obscure productivity tips, or practicing new languages to see the sparkle in people&amp;rsquo;s eyes when you talk to them in their tongue. My curiosity, coupled with a strong desire to put out nothing but the best is my greatest asset.</description>
+    </item>
+    
+    <item>
+      <title>CNN Autoencoder for Image Denoising</title>
+      <link>https://vigneshsundararajan.github.io/blog/cnn/</link>
+      <pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/blog/cnn/</guid>
+      <description>Dataset used MNIST: http://yann.lecun.com/exdb/mnist/
+Data augmentation was performed on this dataset by adding a Gaussian noise with $\mu = 0$ and $\sigma = 0.5$. Test-train splits were then created by concatenating the clean images along with their noisy counterparts.
+Model Architecture and Training The autoencoder model designed for this task has two convolutional layers along with max pooling in the encoder, and two transpose convolutional layers in the decoder. Training was done for 10 epochs to reduce the loss to a sufficient level.</description>
+    </item>
+    
+    <item>
+      <title>KNN Classifier to detect potential credit card fraud</title>
+      <link>https://vigneshsundararajan.github.io/blog/knn/</link>
+      <pubDate>Fri, 24 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/blog/knn/</guid>
+      <description>Through this project, I was attempting to understand the K-nearest-neighbors classification algorithm and the process of selecting the optimal estimators.
+Understanding the dataset The dataset was a CSV file consisting of PCA values for certain transaction information to protect consumer privacy. The Amount feature is the amount of money in that particular transaction and the Class feature contains two classes safe and fraud
+Objective The goal was to find the optimal parameters of the KNN estimator using cross validation and then provide a final estimate of the model&amp;rsquo;s generalization performance via the test set.</description>
     </item>
     
     <item>
