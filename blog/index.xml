@@ -6,7 +6,17 @@
     <description>Recent content in Blogs on Vignesh Sundararajan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://vigneshsundararajan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://vigneshsundararajan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Neovim config in Lua</title>
+      <link>https://vigneshsundararajan.github.io/blog/nvim/</link>
+      <pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/blog/nvim/</guid>
+      <description>Vimscript is great but Lua makes more sense I have been using Neovim for a little over two years now and it is honestly incredible to see how the software as well as the community has grown into this really inclusive group with a strong focus on collaboration and rapid update cycles.
+My earlier configs relied on Vimscript and plugins written in Vimscript, but I felt like I wasn&amp;rsquo;t being minimal enough with my config and not embracing the design philosophy of Neovim.</description>
+    </item>
+    
     <item>
       <title>Ball Tracking and Chasing Robot using ROS and Gazebo</title>
       <link>https://vigneshsundararajan.github.io/blog/autsys/</link>
