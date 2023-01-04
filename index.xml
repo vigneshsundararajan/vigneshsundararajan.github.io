@@ -51,7 +51,7 @@ My earlier configs relied on Vimscript and plugins written in Vimscript, but I f
       
       <guid>https://vigneshsundararajan.github.io/about/</guid>
       <description>Nice to meet you. This is me. &amp;ldquo;Taking on a challenge is a lot like riding a horse. If you&amp;rsquo;re comfortable while you&amp;rsquo;re doing it, you&amp;rsquo;re probably doing it wrong&amp;rdquo;
-- Ted Lasso I strive on learning new things everyday. Whether it be obscure productivity tips, geeking out over space exploration, trying out electronic music production, or picking up new languages to gain an appreciation of the world and it&amp;rsquo;s different cultures.</description>
+- Ted Lasso I strive on learning new things everyday. Whether it is geeking out over space exploration, trying out electronic music production, picking up new languages or taking Art and Design classes along with my Aerospace Engineering coursework. My curiosity, coupled with a strong desire to put out work with intentionality and quality at it&amp;rsquo;s core is my greatest asset.</description>
     </item>
     
     <item>
@@ -87,12 +87,13 @@ As a member of the Aerodynamics subteam, I have worked on carrying out mesh sens
     </item>
     
     <item>
-      <title>Résumé</title>
-      <link>https://vigneshsundararajan.github.io/resume/</link>
+      <title></title>
+      <link>https://vigneshsundararajan.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://vigneshsundararajan.github.io/resume/</guid>
-      <description>This browser does not support PDFs. Please download the PDF to view it: Download PDF.</description>
+      <guid>https://vigneshsundararajan.github.io/contact/</guid>
+      <description>Get in touch with me Feel free to reach out if you&amp;rsquo;d like to discuss some of the work I&amp;rsquo;ve done or if you&amp;rsquo;re curious and want to learn more! Send me an email at
+sundar18@purdue.edu </description>
     </item>
     
   </channel>
