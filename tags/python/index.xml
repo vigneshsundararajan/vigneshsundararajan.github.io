@@ -27,6 +27,16 @@ My earlier configs relied on Vimscript and plugins written in Vimscript, but I f
     </item>
     
     <item>
+      <title>Path Planning using Graph Search Algorithms</title>
+      <link>https://vigneshsundararajan.github.io/blog/path-planning/</link>
+      <pubDate>Sat, 26 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/blog/path-planning/</guid>
+      <description>The GMapping SLAM module on ROS was used to generate an environment map, which was then converted to a graph data structure. This was done by reading in the .pgm and .yaml files into Python, and then inflating the map with a rectangular kernel, followed by conversion to a graph. T he path planning problem was then solved from the map graph representation
+Breadth First Search The breadth first search goes through the nodes in an unweighted graph and keeps a queue of the visited and unvisited nodes.</description>
+    </item>
+    
+    <item>
       <title>Monocular Vision based Navigation of a 4-wheeled Robot</title>
       <link>https://vigneshsundararajan.github.io/blog/monovision-nav/</link>
       <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
