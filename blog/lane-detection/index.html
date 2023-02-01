@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-  <title>My Graduate Research in Urban Air Mobility | Vignesh Sundararajan</title>
+  <title>Lane Detection using OpenCV | Vignesh Sundararajan</title>
 
   <meta charset="UTF-8">
   <meta name="language" content="en">
@@ -49,8 +49,8 @@
             "@id": "https:\/\/vigneshsundararajan.github.io\/"
       },
       "articleSection" : "blog",
-      "name" : "My Graduate Research in Urban Air Mobility",
-      "headline" : "My Graduate Research in Urban Air Mobility",
+      "name" : "Lane Detection using OpenCV",
+      "headline" : "Lane Detection using OpenCV",
       "description" : "",
       "inLanguage" : "en-US",
       "author" : "",
@@ -58,11 +58,11 @@
       "publisher": "",
       "accountablePerson" : "",
       "copyrightHolder" : "",
-      "copyrightYear" : "2023",
-      "datePublished": "2023-01-06 00:00:00 \u002b0000 UTC",
-      "dateModified" : "2023-01-06 00:00:00 \u002b0000 UTC",
-      "url" : "https:\/\/vigneshsundararajan.github.io\/blog\/research\/",
-      "wordCount" : "337",
+      "copyrightYear" : "2022",
+      "datePublished": "2022-02-25 00:00:00 \u002b0000 UTC",
+      "dateModified" : "2022-02-25 00:00:00 \u002b0000 UTC",
+      "url" : "https:\/\/vigneshsundararajan.github.io\/blog\/lane-detection\/",
+      "wordCount" : "106",
       "keywords" : ["Blog"]
     }
   
@@ -112,44 +112,15 @@
       <div class="post__container">
         <div class="post">
           <header class="post__header">
-            <h1 id="post__title">My Graduate Research in Urban Air Mobility</h1>
-            <time datetime="2023-01-06 00:00:00 &#43;0000 UTC" class="post__date">Jan 6 2023</time> 
+            <h1 id="post__title">Lane Detection using OpenCV</h1>
+            <time datetime="2022-02-25 00:00:00 &#43;0000 UTC" class="post__date">Feb 25 2022</time> 
           </header>
           <article class="post__content">
               
-<table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="../../images/uam.jpg" alt=""></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><b>Image Credits : NASA</b></td>
-</tr>
-</tbody>
-</table>
-<h2 id="the-growth-of-uam-and-the-role-of-autonomy-in-it">The growth of UAM and the role of autonomy in it<a class="anchor" href="#the-growth-of-uam-and-the-role-of-autonomy-in-it">#</a></h2>
-<p>The world as a collective is transitioning to a more autonomous future with the advent of intelligent transportation
-vehicles running on renewable energy. The technological advancements run in parallel with the rapid increase in urban
-population density and the need for quick and reliable point-to-point travel. The UAM concept highlights the use of
-Urban Air Taxis, that can take off and land vertically from densely populated areas, and as such need to be highly
-reliable as the UAM market is projected to grow to roughly 28.3 billion USD upto 2030 along with an infrastructure
-growth of 58.7% (<em>World UAM Market - 2022 : ResearchAndMarkets.com</em>)</p>
-<p>With this rapid growth, comes numerous infrastructure scaling challenges, with air traffic control being a primary concern. Introducing verifiable autonomy into this infrastructure is what I focus on.</p>
-<h2 id="current-work">Current Work<a class="anchor" href="#current-work">#</a></h2>
-<p>Our team is focused on the Systems integration of the flight control algorithms and the collision aware path planning, into a Multi-Agent System of Systems level simulation. In this simulation, an MBSE decision making framework is integrated to handle off-nominal scenarios pertaining to both a single aircraft, or a fleet of aircrafts keeping in mind the different stakeholders and actors in the system.</p>
-<p>I am currently working with using ROS2 and C++ to build this modeling and simulation pipeline with a SysML model acting as the foundation for decision making. In parallel, I also proposed and am investigating the use of Multi Agent Reinforcement Learning to devise key system metrics for incentivizing safety and reliability for all aircrafts. The use of Multi Agent RL would also allow us to simulate and understand emergent behavior that cannot be otherwise predicted through conventional methods.</p>
-<p>The Verification and Validation of this framework would be done by incorporating an Explainable AI module into the entire system to better understand the root cause of erroneous decisions.</p>
-<h2 id="links">Links<a class="anchor" href="#links">#</a></h2>
-<p>• <a href="https://engineering.purdue.edu/SoSL" 
-  
-   target="_blank" rel="noreferrer noopener" 
->Center for Integrated Systems in Aerospace</a></p>
-<p>• <a href="https://uli.arc.nasa.gov/projects/10/" 
-  
-   target="_blank" rel="noreferrer noopener" 
->The NASA Secure and Safe Assured Autonomy Initiative</a></p>
+<p>Lane detection is an important computer vision problem in the context of autonomous driving. In this project, an image is taken as an input and then a Gaussian Blur filter is applied to it. A Sobel Filter was implemented to obtain the grayscale gradient image followed by Canny Edge detection using Non-Max Suppression and Hysteresis Thresholding to extract edges between a specified threshold. Image masking is then used to extract only the edges that are of interest (eg: we don&rsquo;t need the horizon). A probabilistic Hough Transform was then applied to extract the left and right lane markings, which were then overlayed on the original image.</p>
+<p><img src="../../images/canny-lane.png" alt="canny-lane">
+<img src="../../images/hough-lane.png" alt="hough-lane">
+<img src="../../images/original-lane.png" alt="original-lane"></p>
 
 
               
@@ -170,34 +141,30 @@ growth of 58.7% (<em>World UAM Market - 2022 : ResearchAndMarkets.com</em>)</p>
 
 <ul class="tags__list">
     
+    <li class="tag__item">
+        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/robotics/">Robotics</a>
+    </li>
     
     <li class="tag__item">
-        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/c&#43;&#43;/">C&#43;&#43;</a>
+        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/opencv/">OpenCV</a>
     </li>
     <li class="tag__item">
         <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/python/">Python</a>
-    </li>
-    <li class="tag__item">
-        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/mbse/">MBSE</a>
-    </li>
-    <li class="tag__item">
-        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/robotics/">robotics</a>
-    </li>
-    <li class="tag__item">
-        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/ros/">ros</a>
-    </li>
-    <li class="tag__item">
-        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/linux/">linux</a>
     </li></ul>
 
  <div class="pagination">
   
-    <a class="pagination__item" href="https://vigneshsundararajan.github.io/blog/nvim/">
+    <a class="pagination__item" href="https://vigneshsundararajan.github.io/blog/srgan/">
         <span class="pagination__label">Previous Post</span>
-        <span class="pagination__title">My Neovim config in Lua</span>
+        <span class="pagination__title">Image Super Resolution using a GAN with a Perceptual Loss Function</span>
     </a>
   
 
+  
+    <a class="pagination__item" href="https://vigneshsundararajan.github.io/blog/monovision-nav/">
+      <span class="pagination__label">Next Post</span>
+      <span class="pagination__title" >Monocular Vision based Navigation of a 4-wheeled Robot</span>
+    </a>
   
 </div>
 

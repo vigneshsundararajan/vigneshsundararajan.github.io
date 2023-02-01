@@ -55,6 +55,15 @@ Breadth First Search The breadth first search goes through the nodes in an unwei
     </item>
     
     <item>
+      <title>Lane Detection using OpenCV</title>
+      <link>https://vigneshsundararajan.github.io/blog/lane-detection/</link>
+      <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/blog/lane-detection/</guid>
+      <description>Lane detection is an important computer vision problem in the context of autonomous driving. In this project, an image is taken as an input and then a Gaussian Blur filter is applied to it. A Sobel Filter was implemented to obtain the grayscale gradient image followed by Canny Edge detection using Non-Max Suppression and Hysteresis Thresholding to extract edges between a specified threshold. Image masking is then used to extract only the edges that are of interest (eg: we don&amp;rsquo;t need the horizon).</description>
+    </item>
+    
+    <item>
       <title>Image Super Resolution using a GAN with a Perceptual Loss Function</title>
       <link>https://vigneshsundararajan.github.io/blog/srgan/</link>
       <pubDate>Thu, 16 Dec 2021 09:12:37 -0500</pubDate>

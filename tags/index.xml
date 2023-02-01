@@ -35,7 +35,16 @@
     </item>
     
     <item>
-      <title>reinforcement-learning</title>
+      <title>Python</title>
+      <link>https://vigneshsundararajan.github.io/tags/python/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning</title>
       <link>https://vigneshsundararajan.github.io/tags/reinforcement-learning/</link>
       <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
       
@@ -58,15 +67,6 @@
       <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://vigneshsundararajan.github.io/tags/ros/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>uam</title>
-      <link>https://vigneshsundararajan.github.io/tags/uam/</link>
-      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/uam/</guid>
       <description></description>
     </item>
     
@@ -98,15 +98,6 @@
     </item>
     
     <item>
-      <title>Python</title>
-      <link>https://vigneshsundararajan.github.io/tags/python/</link>
-      <pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>CMake</title>
       <link>https://vigneshsundararajan.github.io/tags/cmake/</link>
       <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
@@ -116,11 +107,11 @@
     </item>
     
     <item>
-      <title>Gazebo</title>
-      <link>https://vigneshsundararajan.github.io/tags/gazebo/</link>
+      <title>Computer Vision</title>
+      <link>https://vigneshsundararajan.github.io/tags/computer-vision/</link>
       <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://vigneshsundararajan.github.io/tags/gazebo/</guid>
+      <guid>https://vigneshsundararajan.github.io/tags/computer-vision/</guid>
       <description></description>
     </item>
     
@@ -134,15 +125,6 @@
     </item>
     
     <item>
-      <title>Perception</title>
-      <link>https://vigneshsundararajan.github.io/tags/perception/</link>
-      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/perception/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>XML</title>
       <link>https://vigneshsundararajan.github.io/tags/xml/</link>
       <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
@@ -152,38 +134,20 @@
     </item>
     
     <item>
-      <title>Computer Vision</title>
-      <link>https://vigneshsundararajan.github.io/tags/computer-vision/</link>
-      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      <title>Convolutional Neural Networks</title>
+      <link>https://vigneshsundararajan.github.io/tags/convolutional-neural-networks/</link>
+      <pubDate>Thu, 16 Dec 2021 09:12:37 -0500</pubDate>
       
-      <guid>https://vigneshsundararajan.github.io/tags/computer-vision/</guid>
+      <guid>https://vigneshsundararajan.github.io/tags/convolutional-neural-networks/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>DataHandling</title>
-      <link>https://vigneshsundararajan.github.io/tags/datahandling/</link>
+      <title>Deep Learning</title>
+      <link>https://vigneshsundararajan.github.io/tags/deep-learning/</link>
       <pubDate>Thu, 16 Dec 2021 09:12:37 -0500</pubDate>
       
-      <guid>https://vigneshsundararajan.github.io/tags/datahandling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DeepLearning</title>
-      <link>https://vigneshsundararajan.github.io/tags/deeplearning/</link>
-      <pubDate>Thu, 16 Dec 2021 09:12:37 -0500</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/deeplearning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NeuralNetworks</title>
-      <link>https://vigneshsundararajan.github.io/tags/neuralnetworks/</link>
-      <pubDate>Thu, 16 Dec 2021 09:12:37 -0500</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/neuralnetworks/</guid>
+      <guid>https://vigneshsundararajan.github.io/tags/deep-learning/</guid>
       <description></description>
     </item>
     
@@ -197,16 +161,7 @@
     </item>
     
     <item>
-      <title>CNN</title>
-      <link>https://vigneshsundararajan.github.io/tags/cnn/</link>
-      <pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/cnn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pytorch</title>
+      <title>PyTorch</title>
       <link>https://vigneshsundararajan.github.io/tags/pytorch/</link>
       <pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate>
       
@@ -215,11 +170,11 @@
     </item>
     
     <item>
-      <title>MachineLearning</title>
-      <link>https://vigneshsundararajan.github.io/tags/machinelearning/</link>
+      <title>Machine Learning</title>
+      <link>https://vigneshsundararajan.github.io/tags/machine-learning/</link>
       <pubDate>Fri, 24 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://vigneshsundararajan.github.io/tags/machinelearning/</guid>
+      <guid>https://vigneshsundararajan.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     

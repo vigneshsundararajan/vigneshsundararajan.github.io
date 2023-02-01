@@ -25,5 +25,14 @@
       <description>The vision system consisted of a monocular camera system (5MP 1080p Raspberry Pi Camera module) interfaced with a Raspberry Pi running ROS Noetic on Ubuntu. The DC motors running the wheels and the servo controlling the orientation of the camera were handled by an L293D driver board which was connected to the GPIO pins of the Raspberry Pi First, the camera was calibrated using the camera_calibration ROS package that uses a checkerboard pattern as a target and performs calibration on either a monocular or stereo system.</description>
     </item>
     
+    <item>
+      <title>Lane Detection using OpenCV</title>
+      <link>https://vigneshsundararajan.github.io/blog/lane-detection/</link>
+      <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/blog/lane-detection/</guid>
+      <description>Lane detection is an important computer vision problem in the context of autonomous driving. In this project, an image is taken as an input and then a Gaussian Blur filter is applied to it. A Sobel Filter was implemented to obtain the grayscale gradient image followed by Canny Edge detection using Non-Max Suppression and Hysteresis Thresholding to extract edges between a specified threshold. Image masking is then used to extract only the edges that are of interest (eg: we don&amp;rsquo;t need the horizon).</description>
+    </item>
+    
   </channel>
 </rss>

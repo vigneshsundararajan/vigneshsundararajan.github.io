@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pytorch on Vignesh Sundararajan</title>
+    <title>PyTorch on Vignesh Sundararajan</title>
     <link>https://vigneshsundararajan.github.io/tags/pytorch/</link>
-    <description>Recent content in Pytorch on Vignesh Sundararajan</description>
+    <description>Recent content in PyTorch on Vignesh Sundararajan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://vigneshsundararajan.github.io/tags/pytorch/index.xml" rel="self" type="application/rss+xml" />
