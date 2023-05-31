@@ -6,32 +6,15 @@
     <description>Recent content in Linux on Vignesh Sundararajan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://vigneshsundararajan.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://vigneshsundararajan.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My Graduate Research in Urban Air Mobility</title>
-      <link>https://vigneshsundararajan.github.io/blog/research/</link>
-      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      <title>My Neovim config in Lua</title>
+      <link>https://vigneshsundararajan.github.io/blog/ai-and-robotics/nvim/</link>
+      <pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://vigneshsundararajan.github.io/blog/research/</guid>
-      <description>Image Credits : NASA The growth of UAM and the role of autonomy in it The world as a collective is transitioning to a more autonomous future with the advent of intelligent transportation vehicles running on renewable energy. The technological advancements run in parallel with the rapid increase in urban population density and the need for quick and reliable point-to-point travel. The UAM concept highlights the use of Urban Air Taxis, that can take off and land vertically from densely populated areas, and as such need to be highly reliable as the UAM market is projected to grow to roughly 28.</description>
-    </item>
-    
-    <item>
-      <title>Ball Tracking and Chasing Robot using ROS and Gazebo</title>
-      <link>https://vigneshsundararajan.github.io/blog/autsys/</link>
-      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/blog/autsys/</guid>
-      <description>This project was my first introduction to Perception and learning about the different image processing techniques that I could apply for Object Detection using the minimal computational resources! I explored methods such as Canny Edge Detection, and Image Masking to extract only the object of interest from the RGB camera feed. Once that is done, I calculated the distance to the object by finding it&amp;rsquo;s centroid and position relative to the robot.</description>
-    </item>
-    
-    <item>
-      <title>Monocular Vision based Navigation of a 4-wheeled Robot</title>
-      <link>https://vigneshsundararajan.github.io/blog/monovision-nav/</link>
-      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/blog/monovision-nav/</guid>
-      <description>The vision system consisted of a monocular camera system (5MP 1080p Raspberry Pi Camera module) interfaced with a Raspberry Pi running ROS Noetic on Ubuntu. The DC motors running the wheels and the servo controlling the orientation of the camera were handled by an L293D driver board which was connected to the GPIO pins of the Raspberry Pi First, the camera was calibrated using the camera_calibration ROS package that uses a checkerboard pattern as a target and performs calibration on either a monocular or stereo system.</description>
+      <guid>https://vigneshsundararajan.github.io/blog/ai-and-robotics/nvim/</guid>
+      <description>Vimscript is great but Lua makes more sense I have been using Neovim for a little over two years now and it is honestly incredible to see how the software as well as the community has grown into this really inclusive group with a strong focus on collaboration and rapid update cycles.
+My earlier configs relied on Vimscript and plugins written in Vimscript, but I felt like I wasn&amp;rsquo;t being minimal enough with my config and not embracing the design philosophy of Neovim.</description>
     </item>
     
   </channel>

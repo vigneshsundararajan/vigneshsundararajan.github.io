@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>CNN Autoencoder for Image Denoising | Vignesh Sundararajan</title>
+
+  <meta charset="UTF-8">
+  <meta name="language" content="en">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  
+  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+
+
+  
+  
+    
+ 
+  
+  
+  
+  
+  
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/post.min.86d1effd4c412b85ac13db53a90c473a0f256f789b821e131125c9aa25cb6a6d.css" integrity="sha256-htHv/UxBK4WsE9tTqQxHOg8lb3ibgh4TESXJqiXLam0="/>
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/custom.min.02703eb8c989fc87b8271df00677d67e10ce89b5df9324d10d0a6823e7507f2f.css" integrity="sha256-AnA&#43;uMmJ/Ie4Jx3wBnfWfhDOibXfkyTRDQpoI&#43;dQfy8="/>
+  
+  
+   
+   
+    
+
+<script type="application/ld+json">
+  
+    {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/vigneshsundararajan.github.io\/"
+      },
+      "articleSection" : "blog",
+      "name" : "CNN Autoencoder for Image Denoising",
+      "headline" : "CNN Autoencoder for Image Denoising",
+      "description" : "",
+      "inLanguage" : "en-US",
+      "author" : "",
+      "creator" : "",
+      "publisher": "",
+      "accountablePerson" : "",
+      "copyrightHolder" : "",
+      "copyrightYear" : "2021",
+      "datePublished": "2021-10-27 00:00:00 \u002b0000 UTC",
+      "dateModified" : "2021-10-27 00:00:00 \u002b0000 UTC",
+      "url" : "https:\/\/vigneshsundararajan.github.io\/blog\/ai-and-robotics\/cnn\/",
+      "wordCount" : "148",
+      "keywords" : ["Blog"]
+    }
+  
+  </script>
+</head>
+
+<body>
+  <div class="burger__container">
+  <div class="burger" aria-controls="navigation" aria-label="Menu">
+    <div class="burger__meat burger__meat--1"></div>
+    <div class="burger__meat burger__meat--2"></div>
+    <div class="burger__meat burger__meat--3"></div>
+  </div>
+</div>
+ 
+
+  <nav class="nav" id="navigation">
+  <ul class="nav__list">
+    
+    
+      <li>
+        <a  href="/about">about</a>
+      </li>
+    
+      <li>
+        <a  href="/contact">contact</a>
+      </li>
+    
+      <li>
+        <a  href="/">home</a>
+      </li>
+    
+      <li>
+        <a  class="active"
+         href="/blog/">my work</a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+  <main>
+    
+    
+
+    <div class="flex-wrapper">
+      <div class="post__container">
+        <div class="post">
+          <header class="post__header">
+            <h1 id="post__title">CNN Autoencoder for Image Denoising</h1>
+            <time datetime="2021-10-27 00:00:00 &#43;0000 UTC" class="post__date">Oct 27 2021</time> 
+          </header>
+          <article class="post__content">
+              
+<h3 id="dataset-used">Dataset used<a class="anchor" href="#dataset-used">#</a></h3>
+<p>MNIST: <a href="http://yann.lecun.com/exdb/mnist/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>http://yann.lecun.com/exdb/mnist/</a></p>
+<p>Data augmentation was performed on this dataset by adding a Gaussian noise with $\mu = 0$ and $\sigma = 0.5$. Test-train splits were then created by concatenating the clean images along with their noisy counterparts.</p>
+<p><img src="../../images/noisy.png" alt=""></p>
+<h3 id="model-architecture-and-training">Model Architecture and Training<a class="anchor" href="#model-architecture-and-training">#</a></h3>
+<p>The autoencoder model designed for this task has two convolutional layers along with max pooling in the encoder, and two transpose convolutional layers in the decoder. Training was done for 10 epochs to reduce the loss to a sufficient level. The loss function used was $MSE$ and the learning rate was $0.001$</p>
+<h3 id="results-and-discussion">Results and Discussion<a class="anchor" href="#results-and-discussion">#</a></h3>
+<p><img src="../../images/results.png" alt=""></p>
+<p>The first line in the plot above shows the original MNIST images, followed by the augmented images in the second row. The third row shows the images reconstructed by the neural network after removing the noise. The average loss on the 10th epoch was $17.335$</p>
+<h3 id="link-to-code-repository">Link to Code Repository<a class="anchor" href="#link-to-code-repository">#</a></h3>
+<p><a href="https://github.com/vigneshsundararajan/ae-denoising" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/vigneshsundararajan/ae-denoising</a></p>
+
+
+              
+                  
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+              
+          </article>
+          
+
+<ul class="tags__list">
+    
+    <li class="tag__item">
+        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/ai/">AI</a>
+    </li></ul>
+
+ <div class="pagination">
+  
+    <a class="pagination__item" href="https://vigneshsundararajan.github.io/blog/ai-and-robotics/knn/">
+        <span class="pagination__label">Previous Post</span>
+        <span class="pagination__title">KNN Classifier to detect potential credit card fraud</span>
+    </a>
+  
+
+  
+    <a class="pagination__item" href="https://vigneshsundararajan.github.io/blog/ai-and-robotics/srgan/">
+      <span class="pagination__label">Next Post</span>
+      <span class="pagination__title" >Image Super Resolution using a GAN with a Perceptual Loss Function</span>
+    </a>
+  
+</div>
+
+          
+          <footer class="post__footer">
+            
+
+
+<div class="social-icons">
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="GitHub"
+        href="https://github.com/vigneshsundararajan"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://vigneshsundararajan.github.io/svg/github.svg')"></div>
+      </a>
+    
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="LinkedIn"
+        href="https://www.linkedin.com/in/sundararajan-vignesh"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://vigneshsundararajan.github.io/svg/linkedin.svg')"></div>
+      </a>
+    
+     
+</div>
+
+            <p></p>
+          </footer>
+          </div>
+      </div>
+      
+    </div>
+    
+
+  </main>
+
+   
+
+  
+  <script src="/js/index.min.301a8b0870381bf76b3b5182e8966d363a0474281183439beb024d8b8228fc66.js" integrity="sha256-MBqLCHA4G/drO1GC6JZtNjoEdCgRg0Ob6wJNi4Io/GY=" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/components/prism-core.min.js"></script>
+
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js"
+    data-autoloader-path="https://unpkg.com/prismjs@1.20.0/components/"></script>
+
+  
+
+
+</body>
+
+</html>

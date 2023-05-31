@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project Management on Vignesh Sundararajan</title>
+    <link>https://vigneshsundararajan.github.io/tags/project-management/</link>
+    <description>Recent content in Project Management on Vignesh Sundararajan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://vigneshsundararajan.github.io/tags/project-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fostering the love of Space Exploration with Purdue SEARCH</title>
+      <link>https://vigneshsundararajan.github.io/blog/search/</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/blog/search/</guid>
+      <description>Starting from scratch Helping set up any organization from scratch is always hard. Defining the culture and accurately capturing the true essence of why we gather is everything. I have always loved minimal design and clutter free visualizations. One of my favourite videos that capture this process is from Apple, which I made sure to share during the very first Keynote of the organization. Here are some of the slides (and the intro!</description>
+    </item>
+    
+    <item>
+      <title>Using Machine Learning for Wildlife Conservation</title>
+      <link>https://vigneshsundararajan.github.io/blog/datamine/</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/blog/datamine/</guid>
+      <description>An unexpected beginning&amp;hellip; I joined this project with the expectation of being a student and wanting to learn more about Data Science. However, one of the two team leads had to drop out with a spot opening up. I wanted to challenge myself by being not only accountable for my own learning, but also the team member&amp;rsquo;s collective growth. Looking back, it&amp;rsquo;s safe to say it was one of the best decisions I made, even though I was wildly unprepared to take on this challenge.</description>
+    </item>
+    
+    <item>
+      <title>My Graduate Research in Urban Air Mobility</title>
+      <link>https://vigneshsundararajan.github.io/blog/ai-and-robotics/research/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/blog/ai-and-robotics/research/</guid>
+      <description>Image Credits : NASA The need for secure and autonomous Urban Air Mobility The world as a collective is transitioning to a more autonomous future with the advent of intelligent transportation vehicles running on renewable energy. The UAM concept highlights the use of Urban Air Taxis, that can take off and land vertically from densely populated areas, and as such need to be highly reliable as the UAM market is projected to grow to roughly 28.</description>
+    </item>
+    
+  </channel>
+</rss>

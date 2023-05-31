@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>My Neovim config in Lua | Vignesh Sundararajan</title>
+
+  <meta charset="UTF-8">
+  <meta name="language" content="en">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  
+  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+
+
+  
+  
+    
+ 
+  
+  
+  
+  
+  
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/post.min.86d1effd4c412b85ac13db53a90c473a0f256f789b821e131125c9aa25cb6a6d.css" integrity="sha256-htHv/UxBK4WsE9tTqQxHOg8lb3ibgh4TESXJqiXLam0="/>
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/custom.min.02703eb8c989fc87b8271df00677d67e10ce89b5df9324d10d0a6823e7507f2f.css" integrity="sha256-AnA&#43;uMmJ/Ie4Jx3wBnfWfhDOibXfkyTRDQpoI&#43;dQfy8="/>
+  
+  
+   
+   
+    
+
+<script type="application/ld+json">
+  
+    {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/vigneshsundararajan.github.io\/"
+      },
+      "articleSection" : "blog",
+      "name" : "My Neovim config in Lua",
+      "headline" : "My Neovim config in Lua",
+      "description" : "",
+      "inLanguage" : "en-US",
+      "author" : "",
+      "creator" : "",
+      "publisher": "",
+      "accountablePerson" : "",
+      "copyrightHolder" : "",
+      "copyrightYear" : "2022",
+      "datePublished": "2022-08-19 00:00:00 \u002b0000 UTC",
+      "dateModified" : "2022-08-19 00:00:00 \u002b0000 UTC",
+      "url" : "https:\/\/vigneshsundararajan.github.io\/blog\/ai-and-robotics\/nvim\/",
+      "wordCount" : "409",
+      "keywords" : ["Blog"]
+    }
+  
+  </script>
+</head>
+
+<body>
+  <div class="burger__container">
+  <div class="burger" aria-controls="navigation" aria-label="Menu">
+    <div class="burger__meat burger__meat--1"></div>
+    <div class="burger__meat burger__meat--2"></div>
+    <div class="burger__meat burger__meat--3"></div>
+  </div>
+</div>
+ 
+
+  <nav class="nav" id="navigation">
+  <ul class="nav__list">
+    
+    
+      <li>
+        <a  href="/about">about</a>
+      </li>
+    
+      <li>
+        <a  href="/contact">contact</a>
+      </li>
+    
+      <li>
+        <a  href="/">home</a>
+      </li>
+    
+      <li>
+        <a  class="active"
+         href="/blog/">my work</a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+  <main>
+    
+    
+
+    <div class="flex-wrapper">
+      <div class="post__container">
+        <div class="post">
+          <header class="post__header">
+            <h1 id="post__title">My Neovim config in Lua</h1>
+            <time datetime="2022-08-19 00:00:00 &#43;0000 UTC" class="post__date">Aug 19 2022</time> 
+          </header>
+          <article class="post__content">
+              
+<p><img src="../../../images/vimlua.JPG" alt=""></p>
+<h2 id="vimscript-is-great-but-lua-makes-more-sense">Vimscript is great but Lua makes more sense<a class="anchor" href="#vimscript-is-great-but-lua-makes-more-sense">#</a></h2>
+<p>I have been using Neovim for a little over two years now and it is honestly incredible to see how the software as well as the community has grown into this really inclusive group with a strong focus on collaboration and rapid update cycles.</p>
+<p>My earlier configs relied on Vimscript and plugins written in Vimscript, but I felt like I wasn&rsquo;t being minimal enough with my config and not embracing the design philosophy of Neovim. When I was experimenting with the idea of making Neovim my daily driver, native LSP, Treesitter, and a number of other game-changing features were still in the works and I wanted stability in my development environment. Now it has reached a stage where the transition to a completely Lua based config makes more sense and is honestly, a pleasure to maintain. There is no shortage of community driven content and plugins for tuning your configs to suit your individual needs and maintain the high performance we&rsquo;ve grown to love in Neovim. I decided to make the transition.</p>
+<h2 id="how-the-config-looks">How the config looks<a class="anchor" href="#how-the-config-looks">#</a></h2>
+<p><img src="../../../images/nvim-fuzzy.gif" alt=""></p>
+<h2 id="plugins-used">Plugins Used<a class="anchor" href="#plugins-used">#</a></h2>
+<p><strong>Packer</strong>: <a href="https://github.com/wbthomason/packer.nvim" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/wbthomason/packer.nvim</a></p>
+<p><strong>Material Theme</strong>: <a href="https://github.com/marko-cerovac/material.nvim" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/marko-cerovac/material.nvim</a></p>
+<p><strong>Lualine</strong>: <a href="https://github.com/nvim-lualine/lualine.nvim" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/nvim-lualine/lualine.nvim</a></p>
+<p><strong>Web Devicons</strong>: <a href="https://github.com/kyazdani42/nvim-web-devicons" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/kyazdani42/nvim-web-devicons</a></p>
+<p><strong>Gitsigns</strong>: <a href="https://github.com/lewis6991/gitsigns.nvim" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/lewis6991/gitsigns.nvim</a></p>
+<p><strong>Autopairs</strong>: <a href="https://github.com/windwp/nvim-autopairs" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/windwp/nvim-autopairs</a></p>
+<p><strong>Telescope</strong>: <a href="https://github.com/nvim-telescope/telescope.nvim" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/nvim-telescope/telescope.nvim</a></p>
+<p><strong>Debug Adapter Protocol</strong>: <a href="https://github.com/mfussenegger/nvim-dap" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/mfussenegger/nvim-dap</a></p>
+<p><strong>Autocompletion</strong>: <a href="https://github.com/hrsh7th/nvim-cmp" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/hrsh7th/nvim-cmp</a></p>
+<h2 id="hello-native-lsp">Hello native LSP<a class="anchor" href="#hello-native-lsp">#</a></h2>
+<p>This was probably the most anticipated feature in Neovim 0.5 stable and I must say, making the switch from coc has been seamless so far. The reason I switched is to minimize the external dependecy of NodeJS that coc has. It is no doubt a mature and &lsquo;works out of the box&rsquo; product, but I wanted to have a config that I can port to any OS that I want with minimal downtime.</p>
+<p>So far, I have setup LSP for C++, Python and Rust, with autocompletion capabilties. You must install the LSP servers by yourself which is quite straightforward if you use a package manager like Homebrew for macOS. I use the following LSP servers:</p>
+<ul>
+<li>
+<p><code>pyright</code> for Python</p>
+</li>
+<li>
+<p><code>clangd</code> for C++</p>
+</li>
+<li>
+<p><code>rust-analyzer</code> for Rust</p>
+</li>
+</ul>
+<p>Check out the <a href="https://github.com/vigneshsundararajan/nvim-config/blob/lua-config/lua/lsp-settings.lua" 
+  
+   target="_blank" rel="noreferrer noopener" 
+><code>lsp-settings</code></a> file to see the configuration in detail.</p>
+<h2 id="acknowledgements">Acknowledgements<a class="anchor" href="#acknowledgements">#</a></h2>
+<p>As I mentioned before, a software is only as good as the community around it, and people like <a href="https://www.youtube.com/c/ThePrimeagen" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>ThePrimeagen</a> and <a href="https://www.youtube.com/c/TJDeVries" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>TJ DeVries</a> among countless others make it an absolute joy to learn new tips and tricks about getting comfortable with Neovim. Also a huge thanks to the amazing Neovim dev team for keeping the updates coming!</p>
+<h2 id="link-to-the-github-repo">Link to the Github repo<a class="anchor" href="#link-to-the-github-repo">#</a></h2>
+<p><a href="https://github.com/vigneshsundararajan/nvim-config" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/vigneshsundararajan/nvim-config</a></p>
+
+
+              
+                  
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+              
+          </article>
+          
+
+<ul class="tags__list">
+    
+    <li class="tag__item">
+        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/linux/">Linux</a>
+    </li></ul>
+
+ <div class="pagination">
+  
+    <a class="pagination__item" href="https://vigneshsundararajan.github.io/blog/ai-and-robotics/autsys/">
+        <span class="pagination__label">Previous Post</span>
+        <span class="pagination__title">Ball Tracking and Chasing Robot using ROS and Gazebo</span>
+    </a>
+  
+
+  
+    <a class="pagination__item" href="https://vigneshsundararajan.github.io/blog/ai-and-robotics/research/">
+      <span class="pagination__label">Next Post</span>
+      <span class="pagination__title" >My Graduate Research in Urban Air Mobility</span>
+    </a>
+  
+</div>
+
+          
+          <footer class="post__footer">
+            
+
+
+<div class="social-icons">
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="GitHub"
+        href="https://github.com/vigneshsundararajan"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://vigneshsundararajan.github.io/svg/github.svg')"></div>
+      </a>
+    
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="LinkedIn"
+        href="https://www.linkedin.com/in/sundararajan-vignesh"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://vigneshsundararajan.github.io/svg/linkedin.svg')"></div>
+      </a>
+    
+     
+</div>
+
+            <p></p>
+          </footer>
+          </div>
+      </div>
+      
+    </div>
+    
+
+  </main>
+
+   
+
+  
+  <script src="/js/index.min.301a8b0870381bf76b3b5182e8966d363a0474281183439beb024d8b8228fc66.js" integrity="sha256-MBqLCHA4G/drO1GC6JZtNjoEdCgRg0Ob6wJNi4Io/GY=" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/components/prism-core.min.js"></script>
+
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js"
+    data-autoloader-path="https://unpkg.com/prismjs@1.20.0/components/"></script>
+
+  
+
+
+</body>
+
+</html>

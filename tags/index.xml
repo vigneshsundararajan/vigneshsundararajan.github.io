@@ -6,229 +6,58 @@
     <description>Recent content in Tags on Vignesh Sundararajan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://vigneshsundararajan.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://vigneshsundararajan.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>C&#43;&#43;</title>
-      <link>https://vigneshsundararajan.github.io/tags/c&#43;&#43;/</link>
-      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      <title>Aerospace</title>
+      <link>https://vigneshsundararajan.github.io/tags/aerospace/</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://vigneshsundararajan.github.io/tags/c&#43;&#43;/</guid>
+      <guid>https://vigneshsundararajan.github.io/tags/aerospace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI</title>
+      <link>https://vigneshsundararajan.github.io/tags/ai/</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project Management</title>
+      <link>https://vigneshsundararajan.github.io/tags/project-management/</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/tags/project-management/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
       <link>https://vigneshsundararajan.github.io/tags/linux/</link>
-      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://vigneshsundararajan.github.io/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>MBSE</title>
-      <link>https://vigneshsundararajan.github.io/tags/mbse/</link>
-      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/mbse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://vigneshsundararajan.github.io/tags/python/</link>
-      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reinforcement Learning</title>
-      <link>https://vigneshsundararajan.github.io/tags/reinforcement-learning/</link>
-      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/reinforcement-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Robotics</title>
       <link>https://vigneshsundararajan.github.io/tags/robotics/</link>
-      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://vigneshsundararajan.github.io/tags/robotics/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>ROS</title>
-      <link>https://vigneshsundararajan.github.io/tags/ros/</link>
-      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/ros/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LaTeX</title>
-      <link>https://vigneshsundararajan.github.io/tags/latex/</link>
-      <pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/latex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lua</title>
-      <link>https://vigneshsundararajan.github.io/tags/lua/</link>
-      <pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/lua/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>neovim</title>
-      <link>https://vigneshsundararajan.github.io/tags/neovim/</link>
-      <pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/neovim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CMake</title>
-      <link>https://vigneshsundararajan.github.io/tags/cmake/</link>
-      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/cmake/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Computer Vision</title>
-      <link>https://vigneshsundararajan.github.io/tags/computer-vision/</link>
-      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/computer-vision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OpenCV</title>
-      <link>https://vigneshsundararajan.github.io/tags/opencv/</link>
-      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/opencv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>XML</title>
-      <link>https://vigneshsundararajan.github.io/tags/xml/</link>
-      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/xml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Convolutional Neural Networks</title>
-      <link>https://vigneshsundararajan.github.io/tags/convolutional-neural-networks/</link>
-      <pubDate>Thu, 16 Dec 2021 09:12:37 -0500</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/convolutional-neural-networks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>https://vigneshsundararajan.github.io/tags/deep-learning/</link>
-      <pubDate>Thu, 16 Dec 2021 09:12:37 -0500</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tensorflow</title>
-      <link>https://vigneshsundararajan.github.io/tags/tensorflow/</link>
-      <pubDate>Thu, 16 Dec 2021 09:12:37 -0500</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/tensorflow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PyTorch</title>
-      <link>https://vigneshsundararajan.github.io/tags/pytorch/</link>
-      <pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/pytorch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>https://vigneshsundararajan.github.io/tags/machine-learning/</link>
-      <pubDate>Fri, 24 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>scikit-learn</title>
-      <link>https://vigneshsundararajan.github.io/tags/scikit-learn/</link>
-      <pubDate>Fri, 24 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/scikit-learn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ANSYS</title>
-      <link>https://vigneshsundararajan.github.io/tags/ansys/</link>
+      <title>Design and Manufacturing</title>
+      <link>https://vigneshsundararajan.github.io/tags/design-and-manufacturing/</link>
       <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://vigneshsundararajan.github.io/tags/ansys/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CFD</title>
-      <link>https://vigneshsundararajan.github.io/tags/cfd/</link>
-      <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/cfd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FSAE</title>
-      <link>https://vigneshsundararajan.github.io/tags/fsae/</link>
-      <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/fsae/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Manufacturing</title>
-      <link>https://vigneshsundararajan.github.io/tags/manufacturing/</link>
-      <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/manufacturing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SolidWorks</title>
-      <link>https://vigneshsundararajan.github.io/tags/solidworks/</link>
-      <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://vigneshsundararajan.github.io/tags/solidworks/</guid>
+      <guid>https://vigneshsundararajan.github.io/tags/design-and-manufacturing/</guid>
       <description></description>
     </item>
     
