@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XML on Vignesh Sundararajan</title>
+    <link>https://vigneshsundararajan.github.io/tags/xml/</link>
+    <description>Recent content in XML on Vignesh Sundararajan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://vigneshsundararajan.github.io/tags/xml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ball Tracking and Chasing Robot using ROS and Gazebo</title>
+      <link>https://vigneshsundararajan.github.io/blog/autsys/</link>
+      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/blog/autsys/</guid>
+      <description>This project was my first introduction to Perception and learning about the different image processing techniques that I could apply for Object Detection using the minimal computational resources! I explored methods such as Canny Edge Detection, and Image Masking to extract only the object of interest from the RGB camera feed. Once that is done, I calculated the distance to the object by finding it&amp;rsquo;s centroid and position relative to the robot.</description>
+    </item>
+    
+    <item>
+      <title>Monocular Vision based Navigation of a 4-wheeled Robot</title>
+      <link>https://vigneshsundararajan.github.io/blog/monovision-nav/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/blog/monovision-nav/</guid>
+      <description>The vision system consisted of a monocular camera system (5MP 1080p Raspberry Pi Camera module) interfaced with a Raspberry Pi running ROS Noetic on Ubuntu. The DC motors running the wheels and the servo controlling the orientation of the camera were handled by an L293D driver board which was connected to the GPIO pins of the Raspberry Pi First, the camera was calibrated using the camera_calibration ROS package that uses a checkerboard pattern as a target and performs calibration on either a monocular or stereo system.</description>
+    </item>
+    
+  </channel>
+</rss>

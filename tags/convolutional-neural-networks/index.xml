@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Convolutional Neural Networks on Vignesh Sundararajan</title>
+    <link>https://vigneshsundararajan.github.io/tags/convolutional-neural-networks/</link>
+    <description>Recent content in Convolutional Neural Networks on Vignesh Sundararajan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Dec 2021 09:12:37 -0500</lastBuildDate><atom:link href="https://vigneshsundararajan.github.io/tags/convolutional-neural-networks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Image Super Resolution using a GAN with a Perceptual Loss Function</title>
+      <link>https://vigneshsundararajan.github.io/blog/srgan/</link>
+      <pubDate>Thu, 16 Dec 2021 09:12:37 -0500</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/blog/srgan/</guid>
+      <description>This was my first ever introduction to Deep Learning and AI in general! I chose to work on this project to get myself acquainted with how SOTA networks can be used on a useful problem statement. I came across Ledig, et al. 2017 and was fascinated by how this could be used in numerous applications, say for potentially upsampling low resolution MRI scans instead of purchasing higher cost equipment. The model network proposed was a version of ResNet with 16 Residual Blocks, utilising skip connections, with high level feature maps being captured by a Perceptual Loss Function trained on the VGG network.</description>
+    </item>
+    
+    <item>
+      <title>CNN Autoencoder for Image Denoising</title>
+      <link>https://vigneshsundararajan.github.io/blog/cnn/</link>
+      <pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/blog/cnn/</guid>
+      <description>Dataset used MNIST: http://yann.lecun.com/exdb/mnist/
+Data augmentation was performed on this dataset by adding a Gaussian noise with $\mu = 0$ and $\sigma = 0.5$. Test-train splits were then created by concatenating the clean images along with their noisy counterparts.
+Model Architecture and Training The autoencoder model designed for this task has two convolutional layers along with max pooling in the encoder, and two transpose convolutional layers in the decoder. Training was done for 10 epochs to reduce the loss to a sufficient level.</description>
+    </item>
+    
+  </channel>
+</rss>

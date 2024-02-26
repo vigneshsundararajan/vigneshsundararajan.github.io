@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Vignesh Sundararajan</title>
+    <link>https://vigneshsundararajan.github.io/tags/</link>
+    <description>Recent content in Tags on Vignesh Sundararajan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://vigneshsundararajan.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aerospace</title>
+      <link>https://vigneshsundararajan.github.io/tags/aerospace/</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/tags/aerospace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI</title>
+      <link>https://vigneshsundararajan.github.io/tags/ai/</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project Management</title>
+      <link>https://vigneshsundararajan.github.io/tags/project-management/</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/tags/project-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://vigneshsundararajan.github.io/tags/linux/</link>
+      <pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robotics</title>
+      <link>https://vigneshsundararajan.github.io/tags/robotics/</link>
+      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/tags/robotics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design and Manufacturing</title>
+      <link>https://vigneshsundararajan.github.io/tags/design-and-manufacturing/</link>
+      <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigneshsundararajan.github.io/tags/design-and-manufacturing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

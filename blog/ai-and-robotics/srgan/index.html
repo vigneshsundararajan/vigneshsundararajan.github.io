@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Image Super Resolution using a GAN with a Perceptual Loss Function | Vignesh Sundararajan</title>
+
+  <meta charset="UTF-8">
+  <meta name="language" content="en">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  
+  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+
+
+  
+  
+    
+ 
+  
+  
+  
+  
+  
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/post.min.86d1effd4c412b85ac13db53a90c473a0f256f789b821e131125c9aa25cb6a6d.css" integrity="sha256-htHv/UxBK4WsE9tTqQxHOg8lb3ibgh4TESXJqiXLam0="/>
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/custom.min.02703eb8c989fc87b8271df00677d67e10ce89b5df9324d10d0a6823e7507f2f.css" integrity="sha256-AnA&#43;uMmJ/Ie4Jx3wBnfWfhDOibXfkyTRDQpoI&#43;dQfy8="/>
+  
+  
+   
+   
+    
+
+<script type="application/ld+json">
+  
+    {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/vigneshsundararajan.github.io\/"
+      },
+      "articleSection" : "blog",
+      "name" : "Image Super Resolution using a GAN with a Perceptual Loss Function",
+      "headline" : "Image Super Resolution using a GAN with a Perceptual Loss Function",
+      "description" : "",
+      "inLanguage" : "en-US",
+      "author" : "",
+      "creator" : "",
+      "publisher": "",
+      "accountablePerson" : "",
+      "copyrightHolder" : "",
+      "copyrightYear" : "2021",
+      "datePublished": "2021-12-16 09:12:37 -0500 EST",
+      "dateModified" : "2021-12-16 09:12:37 -0500 EST",
+      "url" : "https:\/\/vigneshsundararajan.github.io\/blog\/ai-and-robotics\/srgan\/",
+      "wordCount" : "202",
+      "keywords" : ["Blog"]
+    }
+  
+  </script>
+</head>
+
+<body>
+  <div class="burger__container">
+  <div class="burger" aria-controls="navigation" aria-label="Menu">
+    <div class="burger__meat burger__meat--1"></div>
+    <div class="burger__meat burger__meat--2"></div>
+    <div class="burger__meat burger__meat--3"></div>
+  </div>
+</div>
+ 
+
+  <nav class="nav" id="navigation">
+  <ul class="nav__list">
+    
+    
+      <li>
+        <a  href="/about">about</a>
+      </li>
+    
+      <li>
+        <a  href="/contact">contact</a>
+      </li>
+    
+      <li>
+        <a  href="/">home</a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+  <main>
+    
+    
+
+    <div class="flex-wrapper">
+      <div class="post__container">
+        <div class="post">
+          <header class="post__header">
+            <h1 id="post__title">Image Super Resolution using a GAN with a Perceptual Loss Function</h1>
+            <time datetime="2021-12-16 09:12:37 -0500 EST" class="post__date">Dec 16 2021</time> 
+          </header>
+          <article class="post__content">
+              
+<p><img src="../../../images/srgan.png" alt=""></p>
+<ul>
+<li>This was my first ever introduction to Deep Learning and AI in general! I chose to work on this project to get myself acquainted with how SOTA networks can be used on a useful problem statement. I came across <a href="https://openaccess.thecvf.com/content_cvpr_2017/papers/Ledig_Photo-Realistic_Single_Image_CVPR_2017_paper.pdf" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Ledig, et al. 2017</a> and was fascinated by how this could be used in numerous applications, say for potentially upsampling low resolution MRI scans instead of purchasing higher cost equipment.</li>
+<li>The model network proposed was a version of ResNet with 16 Residual Blocks, utilising skip connections, with high level feature maps being captured by a Perceptual Loss Function trained on the VGG network.</li>
+<li>The network was then trained for $50,000$ steps on the DIV2K data set, closely monitoring the Perceptual and Discriminator Loss trends over time, to make sure the $4\times$ upscaled images were as close as possible to the original. The results are shown in the picture above.</li>
+<li>This project was presented for my Graduate AI course taught by Prof. David Inoue, which sharpened my research writing skills, as the paper for this class went through a thorough literature review and multiple peer reviews, which culminated in the following presentation!</li>
+</ul>
+<center>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/K7zoeHvSiHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+<p>Here is the link to the code repository for this project <a href="https://github.com/vigneshsundararajan/SRGAN-tf2/tree/main" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>SRGAN-tf2</a></p>
+
+
+              
+                  
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+              
+          </article>
+          
+
+<ul class="tags__list">
+    
+    <li class="tag__item">
+        <a class="tag__link" href="https://vigneshsundararajan.github.io/tags/ai/">AI</a>
+    </li></ul>
+
+ <div class="pagination">
+  
+    <a class="pagination__item" href="https://vigneshsundararajan.github.io/blog/ai-and-robotics/cnn/">
+        <span class="pagination__label">Previous Post</span>
+        <span class="pagination__title">CNN Autoencoder for Image Denoising</span>
+    </a>
+  
+
+  
+    <a class="pagination__item" href="https://vigneshsundararajan.github.io/blog/ai-and-robotics/lane-detection/">
+      <span class="pagination__label">Next Post</span>
+      <span class="pagination__title" >Lane Detection using OpenCV</span>
+    </a>
+  
+</div>
+
+          
+          <footer class="post__footer">
+            
+
+
+<div class="social-icons">
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="GitHub"
+        href="https://github.com/vigneshsundararajan"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://vigneshsundararajan.github.io/svg/github.svg')"></div>
+      </a>
+    
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="LinkedIn"
+        href="https://www.linkedin.com/in/sundararajan-vignesh"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://vigneshsundararajan.github.io/svg/linkedin.svg')"></div>
+      </a>
+    
+     
+</div>
+
+            <p></p>
+          </footer>
+          </div>
+      </div>
+      
+    </div>
+    
+
+  </main>
+
+   
+
+  
+  <script src="/js/index.min.301a8b0870381bf76b3b5182e8966d363a0474281183439beb024d8b8228fc66.js" integrity="sha256-MBqLCHA4G/drO1GC6JZtNjoEdCgRg0Ob6wJNi4Io/GY=" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/components/prism-core.min.js"></script>
+
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js"
+    data-autoloader-path="https://unpkg.com/prismjs@1.20.0/components/"></script>
+
+  
+
+
+</body>
+
+</html>
